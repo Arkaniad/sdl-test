@@ -1,0 +1,25 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Pesky autoconf generations
+*.in
+
+# No caches.
+*.cache
+
+# No archives.
+
+*.gz
+*.bz
+*.xz
+*.7z
