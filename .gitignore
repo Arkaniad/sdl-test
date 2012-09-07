@@ -11,9 +11,6 @@
 *.la
 *.a
 
-# Pesky autoconf generations
-*.in
-
 # No caches.
 *.cache
 
