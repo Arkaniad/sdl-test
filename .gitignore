@@ -18,8 +18,10 @@
 *.cache
 
 # No archives.
-
 *.gz
 *.bz
 *.xz
 *.7z
+
+# No logs.
+*.log
