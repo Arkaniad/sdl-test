@@ -5,7 +5,7 @@ bool CApp::OnInit(){
     return false;
   }
   
-  if((Surf_Display = SDL_SetVideoMode(640, 480, 32, SDL_HWSURFACE | SDL_DOUBLEBUF))) {
+  if((Surf_Display = SDL_SetVideoMode(640, 480, 32, SDL_HWSURFACE | SDL_DOUBLEBUF)) == NULL) {
     return false;
   }
   return true;
